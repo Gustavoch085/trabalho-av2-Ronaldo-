@@ -1,0 +1,5 @@
+node_modules
+.next
+
+# o next dev cria esse arquivo sozinho, não precisa ir pro git
+AGENTS.md
