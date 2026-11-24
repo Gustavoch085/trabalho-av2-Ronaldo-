@@ -3,7 +3,7 @@ export default function AlunoCard({ nome, curso }) {
   return (
     <div className="card">
       <h3>{nome}</h3>
-      <p>Curso: {curso}</p>
+      <p>{curso}</p>
     </div>
   );
 }

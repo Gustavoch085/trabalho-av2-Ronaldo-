@@ -14,21 +14,37 @@ a {
   color: #1a4fa0;
 }
 
-/* links da tela inicial */
+/* blocos da tela inicial */
 .menu {
   display: flex;
   gap: 10px;
 }
 
-.menu a {
+.opcao {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  width: 160px;
+  text-align: center;
+}
+
+.opcao h2 {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.opcao a {
+  display: inline-block;
   background-color: #1a4fa0;
   color: white;
-  padding: 10px 16px;
+  padding: 8px 14px;
   text-decoration: none;
   border-radius: 4px;
 }
 
-.menu a:hover {
+.opcao a:hover {
   background-color: #153d7c;
 }
 

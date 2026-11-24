@@ -3,7 +3,7 @@ export default function ProfessorCard({ nome, area }) {
   return (
     <div className="card">
       <h3>{nome}</h3>
-      <p>Área: {area}</p>
+      <p>{area}</p>
     </div>
   );
 }
