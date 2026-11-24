@@ -10,17 +10,17 @@ app.use(express.json());
 app.use(cors());
 
 // "banco de dados" em memória, se reiniciar o servidor volta tudo pro começo
-let alunos = [
+const alunos = [
   { id: 1, nome: "Ana", curso: "Sistemas de Informação" },
   { id: 2, nome: "Carlos", curso: "ADS" },
 ];
 
-let cursos = [
+const cursos = [
   { id: 1, nome: "Sistemas de Informação", duracao: "4 anos" },
   { id: 2, nome: "ADS", duracao: "2,5 anos" },
 ];
 
-let professores = [
+const professores = [
   { id: 1, nome: "Marcos", area: "Desenvolvimento Web" },
   { id: 2, nome: "Juliana", area: "Banco de Dados" },
 ];
